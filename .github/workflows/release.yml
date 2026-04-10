@@ -2,8 +2,10 @@ name: Release binaries
 
 on:
   push:
-    tags:
-      - 'v*'
+    # tags:
+    #   - 'v*'
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
